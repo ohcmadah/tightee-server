@@ -1,0 +1,20 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.GENDER_FEMALE = exports.GENDER_MALE = exports.SEOUL_CODE = exports.KAKAO_PROVIDER = exports.KAKAO_GENDER_FEMALE = exports.KAKAO_GENDER_MALE = exports.KAKAO_GET_USER_INFO_URL = exports.KAKAO_GET_TOKEN_URL = void 0;
+const KAKAO_GET_TOKEN_URL = "https://kauth.kakao.com/oauth/token";
+exports.KAKAO_GET_TOKEN_URL = KAKAO_GET_TOKEN_URL;
+const KAKAO_GET_USER_INFO_URL = "https://kapi.kakao.com/v2/user/me";
+exports.KAKAO_GET_USER_INFO_URL = KAKAO_GET_USER_INFO_URL;
+const KAKAO_GENDER_MALE = "male";
+exports.KAKAO_GENDER_MALE = KAKAO_GENDER_MALE;
+const KAKAO_GENDER_FEMALE = "female";
+exports.KAKAO_GENDER_FEMALE = KAKAO_GENDER_FEMALE;
+const KAKAO_PROVIDER = "KAKAO";
+exports.KAKAO_PROVIDER = KAKAO_PROVIDER;
+const SEOUL_CODE = "asia-northeast3";
+exports.SEOUL_CODE = SEOUL_CODE;
+const GENDER_MALE = "M";
+exports.GENDER_MALE = GENDER_MALE;
+const GENDER_FEMALE = "F";
+exports.GENDER_FEMALE = GENDER_FEMALE;
+//# sourceMappingURL=constants.js.map
